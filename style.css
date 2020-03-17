@@ -1,12 +1,21 @@
 body
 {
     font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px
 }
 h1
 {
     font-size: 50px;
 }
-.name-highlighted
+h2
+{
+    font-size: 40px;
+}
+p
+{
+    color: dimgray;
+}
+.coral-highlighted
 {
     color: coral;
 }
@@ -20,5 +29,67 @@ h1
 .half-width img
 {
     width: 100%;
-    height: auto;
+    
+}
+.top-banner
+{    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+}
+section
+{
+    height: 500px;
+}
+.hire-me-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+.fb
+{
+    color: midnightblue;
+    font-weight: bold;
+}
+.dream-area
+{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.exp-each
+{
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 30px grey;
+    border-radius: 15px;
+    height : 80%;
+}
+.exp-area
+{
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+#pro
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato,orange);
+    border-image-slice: 1;
+}
+#baby
+{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,skyblue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    
 }
