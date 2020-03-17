@@ -68,13 +68,13 @@ section
     background-color: whitesmoke;
     box-shadow: 8px 8px 30px grey;
     border-radius: 15px;
-    height : 80%;
 }
 .exp-area
 {
     background-image: url("images/exp-bg.png");
-    background-position: left;
+    float: left;
     background-repeat: no-repeat;
+    
     
 }
 #pro
@@ -92,4 +92,13 @@ section
 footer p{
     text-align: center;
     
+}
+#new
+{
+    margin-bottom: 100px;
+}
+#new1
+{
+    margin-top: 600px;
+    text-align: center;
 }
