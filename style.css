@@ -89,16 +89,13 @@ section
     border-image: linear-gradient(180deg,blue,skyblue);
     border-image-slice: 1;
 }
-footer p{
-    text-align: center;
-    
-}
+
 #new
 {
     margin-bottom: 100px;
 }
 #new1
 {
-    margin-top: 600px;
+    margin-top: 800px;
     text-align: center;
 }
